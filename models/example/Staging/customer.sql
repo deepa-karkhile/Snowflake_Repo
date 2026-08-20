@@ -1,6 +1,5 @@
-
-    select
-    try cast(id as int) as id,
+select
+    id,
     first_name,
     last_name
-    from {{sources('datafeed_shared_schema','customerdata')}}
+    from {{source('datafeed_shared_schema','customerdata')}}
