@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: sales_raw
+    database: SALES
+    schema: RAW_SCHEMA
+    tables:
+      - name: raw_order
+      - name: customerdata
