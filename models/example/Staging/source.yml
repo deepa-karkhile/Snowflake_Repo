@@ -1,4 +1,5 @@
 version: 2
+<<<<<<< HEAD
 sources:
     - name: datafeed_shared_schema
       database: "{{('sales')}}"
@@ -6,3 +7,13 @@ sources:
       tables:
         - name: customerdata
         
+=======
+
+sources:
+  - name: sales_raw
+    database: SALES
+    schema: RAW_SCHEMA
+    tables:
+      - name: raw_order
+      - name: customerdata
+>>>>>>> ec063c6c724ec800bfffedb3b64e7c3b0a0cdbcd
