@@ -11,7 +11,7 @@ sources:
 
 sources:
   - name: sales_raw
-    database: SALES
+    database: SALES_DEV
     schema: RAW_SCHEMA
     tables:
       - name: raw_order
